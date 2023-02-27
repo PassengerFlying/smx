@@ -1,9 +1,9 @@
 {
-  "name": "@rweich/streamdeck-ts-template",
+  "name": "@passengerflying/smx",
   "version": "0.0.0-development",
-  "description": "a template to create streamdeck plugins in typescript",
+  "description": "Control X-Plane with your Stream Deck (through MQTT)",
   "private": true,
-  "author": "rweich",
+  "author": "passengerflying",
   "license": "MIT",
   "scripts": {
     "build": "yarn clean && webpack --mode=development",
@@ -14,7 +14,7 @@
     "prepare": "husky install",
     "set-plugin-version": "ts-node build/scripts/set-plugin-version.ts",
     "type-check": "tsc --noEmit",
-    "update-template": "update-template https://github.com/rweich/streamdeck-ts-template",
+    "update-template": "update-template https://github.com/passengerflying/smx",
     "watch": "webpack watch --mode=development"
   },
   "dependencies": {
@@ -55,8 +55,8 @@
   "engines": {
     "node": ">=14.17"
   },
-  "repository": "rweich/streamdeck-ts-template",
-  "bugs": "https://github.com/rweich/streamdeck-ts-template/issues",
+  "repository": "passengerflying/smx",
+  "bugs": "https://github.com/passengerflying/smx/issues",
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
